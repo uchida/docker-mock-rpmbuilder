@@ -15,7 +15,7 @@ $ docker run -e MOCK_CONFIG=epel-6-x86_64 -e MOCK_TARGET=SRPMS -v /path/to/rpmbu
 To build packages from `*.spec` under the `/path/to/rpmbuild/SPECS/` for `epel-6-x86_64` environment.
 
 ```console
-$ docker run -e MOCK_CONFIG=epel-6-x86_64 -e MOCK_TARGET=SPECS -v /path/to/rpmbuild:/rpmbuild --privileged=true -it auchida/mock-rpmbuilder
+$ docker run -e MOCK_CONFIG=epel-6-x86_64 -e MOCK_TARGET=SPECS -v /path/to/rpmbuild:/rpmbuild --privileged=true -i auchida/mock-rpmbuilder
 ```
 
 ## License
