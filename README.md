@@ -1,6 +1,6 @@
 # docker-mock-rpmbuilder
 
-Build RPMs from rpmbuild/SPECS or rpmbuild/SOURCES with mock, clean room builder for RedHat Enterprise Linxu derivative distributions.
+Build RPMs from `rpmbuild/{SPECS,SRPMS}` with mock, clean room builder for RedHat Enterprise Linxu derivative distributions.
 
 Docker image is available as [auchida/mock-rpmbuilder](https://hub.docker.com/r/auchida/mock-rpmbuilder/) in [Docker Hub](https://hub.docker.com/).
 
