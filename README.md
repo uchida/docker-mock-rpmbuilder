@@ -13,13 +13,13 @@ $ docker build -t mock-rpmbuilder .
 To rebuild packages from `*.src.rpms` under the `/path/to/rpmbuild/SRPMS/` for `epel-6-x86_64` environment.
 
 ```console
-$ docker run -e MOCK_CONFIG=epel-6-x86_64 -e MOCK_TARGET=SRPMS -v /path/to/rpmbuild:rpmbuild --privileged=true -it mock-rpmbuilder
+$ docker run -e MOCK_CONFIG=epel-6-x86_64 -e MOCK_TARGET=SRPMS -v /path/to/rpmbuild:/rpmbuild --privileged=true -it mock-rpmbuilder
 ```
 
 To build packages from `*.spec` under the `/path/to/rpmbuild/SPECS/` for `epel-6-x86_64` environment.
 
 ```console
-$ docker run -e MOCK_CONFIG=epel-6-x86_64 -e MOCK_TARGET=SPECS -v /path/to/rpmbuild:rpmbuild --privileged=true -it mock-rpmbuilder
+$ docker run -e MOCK_CONFIG=epel-6-x86_64 -e MOCK_TARGET=SPECS -v /path/to/rpmbuild:/rpmbuild --privileged=true -it mock-rpmbuilder
 ```
 
 ## License
