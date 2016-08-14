@@ -23,8 +23,7 @@ $ docker run -e MOCK_CONFIG=epel-6-x86_64 -e MOCK_TARGET=SPECS -v /path/to/rpmbu
 
 ## License
 
-Dockerfile and build scripts is dedicated to 
-[![CC0](http://i.creativecommons.org/p/zero/1.0/80x15.png "CC0")](https://creativecommons.org/publicdomain/zero/1.0/).
+Dockerfile and build scripts is dedicated to [![CC0 public domain](http://i.creativecommons.org/p/zero/1.0/80x15.png "CC0 public domain")](https://creativecommons.org/publicdomain/zero/1.0/).
 No rights reserved.
 
 License for distributed Docker images follows one of [Fedora Project](https://fedoraproject.org) and installed packages.
