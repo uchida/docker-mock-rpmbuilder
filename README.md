@@ -1,7 +1,7 @@
 # docker-mock-rpmbuilder
 
 [![License](https://img.shields.io/github/license/uchida/docker-mock-rpmbuilder.svg?maxAge=2592000)](https://tldrlegal.com/license/creative-commons-cc0-1.0-universal)
-[![ImageLayers Layers](https://img.shields.io/imagelayers/layers/auchida/mock-rpmbuilder/latest.svg?maxAge=2592000)](https://imagelayers.io/?images=auchida%2Fmock-rpmbuilder:latest)
+[![MicroBadger](https://images.microbadger.com/badges/image/auchida/mock-rpmbuilder.svg)](http://microbadger.com/images/auchida/mock-rpmbuilder)
 
 Build RPMs from `rpmbuild/{SPECS,SRPMS}` with mock, clean room builder for RedHat Enterprise Linxu derivative distributions.
 
